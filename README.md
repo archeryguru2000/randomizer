@@ -1,6 +1,6 @@
 # randomizer.py
 
-`randomizer.py` is a lightweight, fully generic randomization and CLI-utility module designed for use in engineering, physics, mathematics, and FE‑style problem generators. It provides:
+`randomizer.py` is a lightweight, fully generic randomization and CLI-utility module designed for use in engineering, physics, mathematics, and FE‑style problem generators.  Created with the help of Copilot.  It provides:
 
 - A **base argument parser** (`build_argparser()`) that can be extended by any problem script  
 - A **uniform random number generator** (`uniform_in()`) with configurable decimal precision  
