@@ -105,14 +105,6 @@ def build_argparser(description: str | None = None) -> argparse.ArgumentParser:
         help="Random seed for reproducibility."
     )
 
-    # Precision control for randomized values
-    p.add_argument(
-        "--ndp",
-        type=int,
-        default=1,
-        help="Number of decimal places for any RANDOMIZED values."
-    )
-
     return p
 
 
