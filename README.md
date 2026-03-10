@@ -15,9 +15,9 @@ This module is intentionally domain‑agnostic. It can be reused across any type
 
 ## ✨ Features
 
-- **Generic by design** — no domain‑specific assumptions (temperature, mass flow, etc.)  
+- **Generic by design** — no domain‑specific assumptions  
 - **Reproducible outputs** via `--seed`  
-- **Configurable numeric precision** for randomized values via `--ndp`  
+- **Configurable numeric precision** via `--ndp`  
 - **Shell‑friendly range parsing** (`nargs=2` works in PowerShell, Bash, zsh, CMD)  
 - Zero side effects at import time  
 - Simple, composable, and easy to extend  
@@ -26,5 +26,15 @@ This module is intentionally domain‑agnostic. It can be reused across any type
 
 ## 📦 Installation
 
-Simply place `randomizer.py` in your project or utilities folder:
+Place `randomizer.py` in your project folder:
 
+
+## 📄 License
+This utility is designed for free and open educational use.
+You may incorporate it into teaching materials, assignments, generators, or research tools.
+
+## 🤝 Contributing
+If you want to extend this module (Gaussian generators, discrete sampling, symbolic placeholders, etc.), feel free to fork and submit pull requests.
+
+## 📬 Contact
+Created as part of a suite of engineering education tools.
